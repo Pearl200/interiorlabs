@@ -10,7 +10,7 @@ import {
 
 const NavBar: React.FC = () => {
   return (
-    <nav className=" bg-black border-b-1 flex flex-row justify-between items-center text-white p-4">
+    <nav className="border-b-1 flex flex-row justify-between items-center text-white p-4">
       <div>
         <p className="font-semibold ">
           INTERIOR
