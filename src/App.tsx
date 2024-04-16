@@ -25,9 +25,9 @@ const App: React.FC = () => {
       {/* Use the imported image */}
         {/* <img src="./assets/family.jpg" alt="Family" /> */}
         {/* <img src="./assets/Subject 2.png" alt="Subject" /> */}
-        <div className="w-[40%] text-white h-[95vh]">
+        <div className="w-[40%] text-white h-[50vh]">
           <div className="bg-black">
-            <img src="assets/interiordesign.jpg" alt="Interior Design" className="overflow-auto opacity-70" />
+            <img src="assets/interiordesign.jpg" alt="Interior Design" className="overflow-auto opacity-70 h-[70vh]" />
             <FinalTexts />
           </div>
         </div>
