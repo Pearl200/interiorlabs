@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { GoArrowRight } from "react-icons/go";
+
 
 const BottomPage  = () => {
   return (
   <div className='flex flex-row'> 
    <img src="/assets/family.jpg" alt="Family" className=" " />
-    <div className='text-yellow'> About US 
+    <div className='text-yellow'> About US  <GoArrowRight />
     <div>
       PHILOSOPHY
     </div>

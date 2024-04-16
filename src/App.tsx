@@ -1,6 +1,5 @@
 import React from "react";
 import Mainpage from "./components/Mainpage";
-import BottomPage from "./components/BottomPage ";
 import FinalTexts from "./components/FinalTexts";
 import NavBar from "./components/Navbar";
 
@@ -8,7 +7,7 @@ import NavBar from "./components/Navbar";
 const App: React.FC = () => {
   return (
     <main>
-      <div className="absolute top-28 left-40 leading-[60px]">
+      <div className="absolute top-28 left-40 leading-[60px] md:justify-center">
         <p className="  text-yellow-400 font-bold text-[70px] "> We create </p>
         <p className=" text-white font-bold text-[70px] ml-40">more than </p>
         <p className="text-white font- bold text-[100px] ml-64 p-4">

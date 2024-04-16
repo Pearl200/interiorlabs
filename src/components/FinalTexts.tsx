@@ -21,11 +21,11 @@ const FinalTexts = () => {
     <div className="flex flex-row text-black h-[45]">
       {data.map((item) => {
         return (
-          <div className="bg-white flex flex-col justify-around h-[35vh] ">
-            <span className="px-4 text-bold-[16px]"> {item.num} </span>
-            <span className="px-4 text-[8px]">{item.description}</span>
-            <span className="px-4">{item.details}</span>
-            <GoArrowRight />
+          <div className="bg-white flex flex-col justify-around h-[35vh] text-wrap">
+            <span className="px-4 text-bold-[32px]"> {item.num} </span>
+            <span className="px-4 text-bold-[8px]">{item.description}</span>
+            <span className="px-4">{item.details}  <GoArrowRight /></span>
+          
 
 
           </div>
